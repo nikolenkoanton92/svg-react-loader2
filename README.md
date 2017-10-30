@@ -1,3 +1,5 @@
+Originally was created and supported by [jhamlet](https://github.com/jhamlet), but author stopped response. I renamed package to `svg-react-loader2`.
+
 SVG to React Loader
 ===================
 
@@ -32,7 +34,7 @@ Installation
 ------------
 
 ~~~
-% npm install --save-dev svg-react-loader
+% npm install --save-dev svg-react-loader2
 ~~~
 
 
@@ -43,7 +45,7 @@ ES6+ (Assuming a `babel-loader` is used on `/\.jsx?$/` files):
 
 ~~~js
 import React, { Component } from 'react';
-import Icon from 'svg-react-loader?name=Icon!../svg/my-icon.svg';
+import Icon from 'svg-react-loader2?name=Icon!../svg/my-icon.svg';
 
 export default class MyIcon extends Component {
     render () {
@@ -229,8 +231,8 @@ Review [lib/sanitize/filters](lib/sanitize/filters) for some examples.
 Report an Issue
 ---------------
 
-* [Bugs](http://github.com/jhamlet/svg-react-loader/issues)
-* Contact the author: <jerry@hamletink.com>
+* [Bugs](https://github.com/nikolenkoanton92/svg-react-loader/issues)
+* Contact the author: <nikolenkoanton92@gmail.com>
 
 
 License
